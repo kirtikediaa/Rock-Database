@@ -19,7 +19,7 @@ const science = () => {
               src={item.Pic}
               alt={item.Rock_Name}
             />
-            <div className="col-6 col-lg-4 p-4 my-auto text-start border info">
+            <div className="col-6 col-lg-4 p-4 my-auto text-start border bg-light info">
               <p className="fs-4 "><b>Rock Name:</b> {item.Rock_Name}</p>
               <p className="fs-6 "><b>Chemical Composition:</b> {item.Chemical_Composition} </p>
               <p className="fs-6"><b>Type:</b> {item.Type} </p>
