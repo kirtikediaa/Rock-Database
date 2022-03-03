@@ -15,7 +15,7 @@ const science = () => {
           <div className="col-12 d-none my-5 d-sm-flex justify-content-around mx-auto ">
             <img
               loading="lazy"
-              className="col-6 col-lg-3 p-4 img-fluid pic"
+              className="col-6 col-lg-3 py-3 img-fluid pic"
               src={item.Pic}
               alt={item.Rock_Name}
             />
